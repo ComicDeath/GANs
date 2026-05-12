@@ -2,7 +2,7 @@
 
 <h1 align="center">A Trilha da Acadêmica - GANs</h1>
 
-O projeto GANs foi desenvolvido como a segunda entrega da disciplina de Redes Neurais e Algoritmos Genéticos, ministrada no terceiro semestre do Bacharelado em Ciência e Tecnologia da Ilum – Escola de Ciências. O objetivo do trabalho é implementar e analisar modelos generativos adversariais (GANs) de forma didática, com foco na geração de imagens sintéticas a partir de ruído aleatório.
+O projeto "GANs" foi desenvolvido como a segunda entrega da disciplina de Redes Neurais e Algoritmos Genéticos, ministrada no terceiro semestre do Bacharelado em Ciência e Tecnologia da Ilum – Escola de Ciências. O objetivo do trabalho é implementar e analisar modelos generativos adversariais (GANs) de forma didática, com foco na geração de imagens sintéticas a partir de ruído aleatório.
 
 O desenvolvimento inclui a construção das arquiteturas do Gerador e do Discriminador, o treinamento adversarial entre as redes e o uso de datasets de imagens. Também foi realizada a análise da evolução das imagens geradas e observação da loss ao longo das épocas, permitindo avaliar o comportamento do aprendizado durante o treinamento e sua estabilidade ao longo do processo.
 
