@@ -24,7 +24,7 @@ Extensão das GANs que utiliza redes convolucionais profundas no Gerador e no Di
 
 # Instalação e como usar
 
-Para utilizar o projeto, é necessário clonar este repositório e garantir que todas as dependências estejam instaladas corretamente no ambiente de execução. Recomenda-se o uso de uma IDE compatível com notebooks .ipynb, como JupyterLab ou VS Code. Além disso, o projeto utiliza Git LFS (Large File Storage) para o gerenciamento de arquivos grandes, sendo necessário tê-lo instalado e inicializado antes do clone completo do repositório. Após a clonagem, abra o notebook `GAN.ipynb`, que contém todas as etapas do projeto, incluindo todos os códigos e explicações.
+Para utilizar o projeto, é necessário clonar este repositório e garantir que todas as dependências estejam instaladas corretamente no ambiente de execução. Recomenda-se o uso de uma IDE compatível com notebooks `.ipynb`, como JupyterLab ou VS Code. Além disso, o projeto utiliza `Git LFS (Large File Storage)` para o gerenciamento de arquivos grandes, sendo necessário tê-lo instalado antes do clone completo do repositório. Após a clonagem, abra o notebook `GAN.ipynb`, que contém todas as etapas do projeto, incluindo todos os códigos e explicações.
 
 O arquivo `utils.py` contém funções auxiliares e é responsável pelo TensorBoard "Logger" usado para captar as informações das redes durante o treinamento.
 
