@@ -1,13 +1,26 @@
 ![ILUM, CNPEM, MINISTÉRIO DA EDUCAÇÃO](https://github.com/ComicDeath/Proton-Collision-Classifier/blob/main/Figuras/ilum_colorida.png)
 
-<h1 align="center">A Rota da Neuromante - MLP_FPS</h1>
+<h1 align="center">A Trilha da Acadêmica - GANs</h1>
 
-O projeto **MLP_FPS**, baseado na atividade **A Rota da Neuromante**, foi a primeira entrega da disciplina de Redes Neurais e Algoritmos Genéticos, ministrada no terceiro semestre do Bacharelado em Ciência e Tecnologia da Ilum - Escola de Ciências. O objetivo é prever FPS (frames por segundo) em jogos a partir de dados de hardware, aplicando regressão supervisionada. O trabalho inclui pré-processamento de dados, criação de embeddings para variáveis categóricas, ajuste de hiperparâmetros com Optuna, definição de funções de ativação, escolha de otimizadores e técnicas de regularização, visando precisão e convergência estável do modelo.
+O projeto GANs foi desenvolvido como a segunda entrega da disciplina de Redes Neurais e Algoritmos Genéticos, ministrada no terceiro semestre do Bacharelado em Ciência e Tecnologia da Ilum – Escola de Ciências. O objetivo do trabalho é implementar e analisar modelos generativos adversariais (GANs) de forma didática, com foco na geração de imagens sintéticas a partir de ruído aleatório.
 
-# Algoritmo utilizado
+O desenvolvimento inclui a construção das arquiteturas do Gerador e do Discriminador, o treinamento adversarial entre as redes e o uso de datasets de imagens. Também foi realizada a análise da evolução das imagens geradas e observação da loss ao longo das épocas, permitindo avaliar o comportamento do aprendizado durante o treinamento e sua estabilidade ao longo do processo.
 
-### `MLP (Multi-Layer Perceptron)`
-Rede neural capaz de capturar padrões complexos nos dados. O MLP foi ajustado com diferentes otimizadores (Adam, AdamW, SGD), funções de ativação para camadas ocultas e de saída, e técnicas de regularização, com hiperparâmetros otimizados via Optuna.
+Foram utilizados recursos como TensorBoard para monitoramento do treinamento e técnicas de regularização para auxiliar na convergência do modelo. A implementação foi realizada em Python com PyTorch, incluindo organização do pipeline experimental e armazenamento dos resultados.
+
+# Arquiteturas utilizadas
+
+### VGAN (Vanilla Generative Adversarial Network)
+
+Arquitetura básica de redes adversariais generativas composta por um Gerador e um Discriminador totalmente conectados. O treinamento é realizado de forma adversarial, onde o Gerador busca produzir amostras sintéticas a partir de ruído aleatório e o Discriminador aprende a distinguir dados reais de gerados.
+
+### CGAN (Conditional Generative Adversarial Network)
+
+Variante das GANs em que a geração de amostras é condicionada a informações adicionais, como rótulos de classe. Tanto o Gerador quanto o Discriminador recebem essa condição como entrada, permitindo controlar o tipo de dado gerado.
+
+### DCGAN (Deep Convolutional Generative Adversarial Network)
+
+Extensão das GANs que utiliza redes convolucionais profundas no Gerador e no Discriminador, substituindo camadas totalmente conectadas por convoluções.
 
 # Instalação e como usar
 
